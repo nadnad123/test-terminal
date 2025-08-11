@@ -1,6 +1,4 @@
 
-#### 8. `vercel.json`
-```json
 {
     "version": 2,
     "builds": [
@@ -28,3 +26,4 @@
         "dest": "api/main.go"
     }
 }
+
