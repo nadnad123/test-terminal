@@ -29,11 +29,11 @@ body {
 .input-container {
     display: flex;
     align-items: center;
+    gap: 10px; /* Add spacing between elements */
 }
 
 .prompt {
     color: #0f0;
-    margin-right: 10px;
 }
 
 #input {
@@ -51,4 +51,26 @@ body {
     outline: none;
     border-color: #0f0;
     box-shadow: 0 0 5px #0f0;
+}
+
+#send-button {
+    background-color: #0f0;
+    color: #000;
+    border: 1px solid #0f0;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-family: 'Courier New', monospace;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #000;
+    color: #0f0;
+    border: 1px solid #0f0;
+}
+
+#send-button:disabled {
+    background-color: #555;
+    color: #999;
+    cursor: not-allowed;
 }
