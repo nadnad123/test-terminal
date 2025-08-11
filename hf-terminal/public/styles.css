@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    font-family: 'Courier New', monospace;
+    color: #0f0;
+}
+
+.terminal {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #000;
+    border: 2px solid #0f0;
+    border-radius: 5px;
+    padding: 20px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#output {
+    flex-grow: 1;
+    margin-bottom: 10px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    color: #0f0;
+    margin-right: 10px;
+}
+
+#input {
+    flex-grow: 1;
+    background-color: #000;
+    color: #0f0;
+    border: 1px solid #0f0;
+    border-radius: 3px;
+    padding: 5px;
+    resize: none;
+    font-family: 'Courier New', monospace;
+}
+
+#input:focus {
+    outline: none;
+    border-color: #0f0;
+    box-shadow: 0 0 5px #0f0;
+}
