@@ -1,4 +1,3 @@
-
 {
     "version": 2,
     "builds": [
@@ -20,10 +19,5 @@
             "src": "/(.*)",
             "dest": "public/index.html"
         }
-    ],
- Hawkins: {
-        "src": "/api/(.*)",
-        "dest": "api/main.go"
-    }
+    ]
 }
-
